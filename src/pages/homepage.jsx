@@ -8,6 +8,7 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -22,6 +23,7 @@ import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons/faInstagramSquare";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -135,12 +137,12 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.facebook}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faFacebook}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -154,7 +156,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
+							{/* <a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
 								rel="noreferrer"
@@ -163,7 +165,7 @@ const Homepage = () => {
 									icon={faMailBulk}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 						</div>
 
 						<div className="homepage-projects">
