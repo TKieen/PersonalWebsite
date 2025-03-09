@@ -6,11 +6,12 @@
 	margin-top: 50px;
 	padding-bottom: 25px;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .footer-links,
 .footer-credits {
-	flex-basis: 50%;
+	flex-basis: 40%;
 }
 
 .footer-links {
