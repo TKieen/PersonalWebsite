@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "TKieen Portfolio",
+		name: "TKieen.",
+		email: "mail@tkieen.dev",
 		logo: "../logo.png",
 	},
 
@@ -13,18 +13,19 @@ const INFO = {
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
+		thread: "https://thread.net/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Welcome to TKieen Portfolio, a place where you shouldn't be in.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"This is just a place where I can put my stuff.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I'm TKieen. I live in Viet Nam, where i design my future.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"My actual name is Nguyen The Kien, I'm 21 years old, currently studying at SGU (Sai Gon University). I’m a passionate designer and developer who thrives at the intersection of creativity and technology. With a keen eye for aesthetics and a strong foundation in coding, I specialize in crafting intuitive user experiences and bringing innovative ideas to life.",
 	},
 
 	articles: {
@@ -35,49 +36,49 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Vietnam osu! Championship",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"An osu!standard tournament in Head-to-Head 1vs1 format.",
+			logo: "../vnoc.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://vnoc.vcl.id.vn",
 		},
 
 		{
-			title: "Project 2",
+			title: "mimi xd bot",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A maimai DX NET Discord Bot with fetching score feature and many more stuff.",
+			logo: "../mimi.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://mimixd.app/",
 		},
 
 		{
-			title: "Project 3",
+			title: "Narukami",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"A maimai DX NET vietnamese tournament by Selenadia Project, with a completely new format.",
+			logo: "../narukami.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://narukami.selenadia.moe/",
 		},
 
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		// {
+		// 	title: "Project 4",
+		// 	description:
+		// 		".",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com",
+		// },
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		// {
+		// 	title: "Project 5",
+		// 	description:
+		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com",
+		// },
 	],
 };
 
