@@ -56,7 +56,7 @@ const INFO = {
 		{
 			title: "Narukami",
 			description:
-				"A maimai DX NET vietnamese tournament by Selenadia Project, with a completely new format.",
+				"A Vietnamese maimai DX tournament by Selenadia Project, with a completely new format.",
 			logo: "../narukami.png",
 			linkText: "View Project",
 			link: "https://narukami.selenadia.moe/",
