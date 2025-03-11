@@ -3,7 +3,7 @@ const INFO = {
 		title: "TKieen Portfolio",
 		name: "TKieen.",
 		email: "mail@tkieen.dev",
-		logo: "../logo.png",
+		logo: `${process.env.PUBLIC_URL}/logo.png`,
 	},
 
 	socials: {
@@ -39,7 +39,7 @@ const INFO = {
 			title: "Vietnam osu! Championship",
 			description:
 				"An osu!standard tournament in Head-to-Head 1vs1 format.",
-			logo: "../vnoc.png",
+			logo: `${process.env.PUBLIC_URL}/vnoc.png`,
 			linkText: "View Project",
 			link: "https://vnoc.vcl.id.vn",
 		},
@@ -48,7 +48,7 @@ const INFO = {
 			title: "mimi xd bot",
 			description:
 				"A maimai DX NET Discord Bot with fetching score feature and many more stuff.",
-			logo: "../mimi.png",
+			logo: `${process.env.PUBLIC_URL}/mimi.png`,
 			linkText: "View Project",
 			link: "https://mimixd.app/",
 		},
@@ -57,7 +57,7 @@ const INFO = {
 			title: "Narukami",
 			description:
 				"A Vietnamese maimai DX tournament by Selenadia Project, with a completely new format.",
-			logo: "../narukami.png",
+			logo: `${process.env.PUBLIC_URL}/narukami.png`,
 			linkText: "View Project",
 			link: "https://narukami.selenadia.moe/",
 		},
